@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services' //Firebase
+apply plugin: 'com.google.android.gms.oss-licenses-plugin' // Licenses
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+    ndkVersion '21.3.6528147'
+
+    defaultConfig {
+        applicationId "com.sommelier"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+    implementation 'com.google.android.material:material:1.4.0-rc01'
+    implementation 'androidx.arch.core:core-runtime:2.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    // Для використання бази даних firebase
+    implementation 'com.google.firebase:firebase-database'
+    // Бібліотека для підвантаження фото
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    // Бібліотека підтримки розмиття SupportRSBlurTransformation у бібліотеці Glide
+    implementation 'jp.wasabeef:glide-transformations:4.0.1'
+    // Бібліотека сортування
+    implementation 'de.codecrafters.tableview:tableview:2.8.0'
+    // Бібліотека повернення до попереднього актівіті слайдом донизу VarietiesDetailsActivity
+    implementation 'com.r0adkll:slidableactivity:2.1.0'
+    // Для застосування CustomTabs
+    implementation 'androidx.browser:browser:1.3.0'
+    // Застосовується в Gallery
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    // Застосовується при зміні теми в додатку
+    implementation "androidx.preference:preference:1.1.1"
+    // Бібліотека для висвітлення бібліотек з відкритим кодом
+    implementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
+    // Импортируйте BoM для платформы Firebase (RemoteConfig)
+    // https://firebase.google.com/support/release-notes/android?hl=ru
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
+    // Объявите зависимости для библиотек Remote Config и Analytics. (RemoteConfig)
+    // При использовании BoM вы не указываете версии в зависимостях библиотеки Firebase.
+
+    // RemoteConfig - для оновлення окремих параметрів діючого додатку
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-config'
+}

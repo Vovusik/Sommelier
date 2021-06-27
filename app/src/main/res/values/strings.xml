@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Виноград</string>
+
+    <string-array name="region">
+        <item>Усі сорти</item>
+        <item>Сотолові</item>
+        <item>Технічні</item>
+        <item>Киш-миш</item>
+        <item>Підщепи</item>
+    </string-array>
+
+    <string name="title_home">Сорти</string>
+    <string name="title_region">САТ</string>
+    <string name="title_sortable">Фільтр</string>
+    <string name="title_gallery">Фон</string>
+    <string name="title_settings">Інше</string>
+
+    <!--Section: Sortable-->
+    <string name="name" translatable="false">НАЗВА</string>
+    <string name="sort" translatable="false">ГРУПА</string>
+    <string name="term" translatable="false">СТРОК</string>
+    <string name="frost" translatable="false">МОРОЗ</string>
+    <string name="color" translatable="false">КОЛІР</string>
+    <string name="growth" translatable="false">РІСТ</string>
+    <string name="weight" translatable="false">ВАГА</string>
+
+
+    <!-- Section: Gallery-->
+    <string name="action_search_festivals">Пошук фестивалю …</string>
+
+    <string name="toast_error">Помилка</string>
+    <string name="toast_failure">Відмова</string>
+
+
+    <!--Section: Settings-->
+    <string name="category_title_general">Налаштування</string>
+    <string name="category_title_about">Про додаток</string>
+    <string name="category_title_notifications">Налаштування сповіщень</string>
+
+    <string name="title_theme">Вибрати тему</string>
+    <string name="title_licenses">Ліцензії відкритого коду</string>
+    <string name="title_version">Версія</string>
+
+    <string name="summary_description">
+        Додаток допоможе вибрати необхідний сорт винограду в залежності від потреб.
+    </string>
+    <string name="summary_licenses">Деталі ліцензії з відкритим кодом</string>
+    <string name="summary_version">1.0</string>
+    <string name="summary_vibrate">Вібрація при отриманні сповіщень</string>
+    <string name="button_licenses">Закрити</string>
+    <string name="pref_ringtone_silent">Без звуку</string>
+
+    <string name="copy_right">Copyrights © %1$d</string>
+
+    <string name="message_subject">Стосовно додатку GRAPES.</string>
+    <string name="message_text">Привіт,</string>
+
+
+    <string name="message_toast_please_wait">Будь ласка, зачекайте ...</string>
+    <string name="message_toast_wallpaper_installed">Шпалери встановлено успішно</string>
+
+
+    <!--Section: Regions-->
+    <string name="region_red">3200 - 3400 °C</string>
+    <string name="region_orange">2900 - 3200 °C</string>
+    <string name="region_green">2700 - 2900 °C</string>
+    <string name="region_blue">2500 - 2700 °C</string>
+
+</resources>

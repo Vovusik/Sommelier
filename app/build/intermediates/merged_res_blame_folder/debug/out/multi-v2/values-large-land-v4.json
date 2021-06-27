@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\User\\AndroidStudioProjects\\Sommelier\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-land-v4\\values-large-land-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\Sommelier\\app\\src\\main\\res\\values-large-land\\integers.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "113,57",
+                        "endColumns": "47,54",
+                        "endOffsets": "156,107"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endColumns": "47,54",
+                        "endOffsets": "98,153"
+                    }
+                }
+            ]
+        }
+    ]
+}

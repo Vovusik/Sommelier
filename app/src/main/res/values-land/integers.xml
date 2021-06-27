@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="search_results_columns">2</integer>
+    <integer name="map_gravity">0</integer>
+    <integer name="gallery_columns">3</integer>
+
+
+    <integer name="padding_top_fragment_maps">400</integer>
+</resources>

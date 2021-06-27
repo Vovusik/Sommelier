@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1052050781565",
+    "firebase_url": "https://sommelier-ca0ca.firebaseio.com",
+    "project_id": "sommelier-ca0ca",
+    "storage_bucket": "sommelier-ca0ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052050781565:android:9844bbb73c162c83c1c814",
+        "android_client_info": {
+          "package_name": "com.sommelier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052050781565-49nj28anjokunj5nlg45flnm843c1klt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sommelier",
+            "certificate_hash": "0318585a956a36880d20146e5fb478c023d554b7"
+          }
+        },
+        {
+          "client_id": "1052050781565-5nm3c6vuok0gieu158rvf657pa11jqj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-u-pQlho8IKOuhZOJqt4sdDzITsBQikI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052050781565-5nm3c6vuok0gieu158rvf657pa11jqj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1052050781565-5nm3c6vuok0gieu158rvf657pa11jqj4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sommelier-ca0ca.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1052050781565</string>
+    <string name="google_api_key" translatable="false">AIzaSyB-u-pQlho8IKOuhZOJqt4sdDzITsBQikI</string>
+    <string name="google_app_id" translatable="false">1:1052050781565:android:9844bbb73c162c83c1c814</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB-u-pQlho8IKOuhZOJqt4sdDzITsBQikI</string>
+    <string name="google_storage_bucket" translatable="false">sommelier-ca0ca.appspot.com</string>
+    <string name="project_id" translatable="false">sommelier-ca0ca</string>
+</resources>

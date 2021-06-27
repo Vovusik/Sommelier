@@ -1,0 +1,103 @@
+com/sommelier/helper/GalleryDepthPageTransformer.java
+ com.sommelier.helper.GalleryDepthPageTransformer
+com/sommelier/helper/SortableGrapesTableView.java
+ com.sommelier.helper.SortableGrapesTableView
+com/sommelier/fragment/GalleryFragment.java
+ com.sommelier.fragment.GalleryFragment
+ com.sommelier.fragment.GalleryFragment$1
+ com.sommelier.fragment.GalleryFragment$2
+com/sommelier/model/RegionModel.java
+ com.sommelier.model.RegionModel
+com/sommelier/fragment/SettingsFragmentBottomSheetDialog.java
+ com.sommelier.fragment.SettingsFragmentBottomSheetDialog
+ com.sommelier.fragment.SettingsFragmentBottomSheetDialog$1
+com/sommelier/helper/SortableComparators.java
+ com.sommelier.helper.SortableComparators
+ com.sommelier.helper.SortableComparators$1
+ com.sommelier.helper.SortableComparators$GrapesColorComparator
+ com.sommelier.helper.SortableComparators$GrapesFrostComparator
+ com.sommelier.helper.SortableComparators$GrapesGrowthComparator
+ com.sommelier.helper.SortableComparators$GrapesNameComparator
+ com.sommelier.helper.SortableComparators$GrapesSortyComparator
+ com.sommelier.helper.SortableComparators$GrapesTermComparator
+ com.sommelier.helper.SortableComparators$WeightComparator
+com/sommelier/helper/RegionColorUtils.java
+ com.sommelier.helper.RegionColorUtils
+com/sommelier/fragment/GrapesFragment.java
+ com.sommelier.fragment.GrapesFragment
+ com.sommelier.fragment.GrapesFragment$1
+ com.sommelier.fragment.GrapesFragment$2
+ com.sommelier.fragment.GrapesFragment$2$1
+ com.sommelier.fragment.GrapesFragment$3
+ com.sommelier.fragment.GrapesFragment$4
+ com.sommelier.fragment.GrapesFragment$5
+com/sommelier/adapter/GalleryRecyclerAdapter.java
+ com.sommelier.adapter.GalleryRecyclerAdapter
+ com.sommelier.adapter.GalleryRecyclerAdapter$1
+ com.sommelier.adapter.GalleryRecyclerAdapter$ImageViewHolder
+com/sommelier/activity/GalleryDetailPagerActivity.java
+ com.sommelier.activity.GalleryDetailPagerActivity
+ com.sommelier.activity.GalleryDetailPagerActivity$1
+ com.sommelier.activity.GalleryDetailPagerActivity$1$1
+ com.sommelier.activity.GalleryDetailPagerActivity$2
+com/sommelier/helper/AnimationUtil.java
+ com.sommelier.helper.AnimationUtil
+com/sommelier/helper/RegionMapView.java
+ com.sommelier.helper.RegionMapView
+ com.sommelier.helper.RegionMapView$1
+ com.sommelier.helper.RegionMapView$2
+ com.sommelier.helper.RegionMapView$OnMapItemListener
+com/sommelier/fragment/SortableFragment.java
+ com.sommelier.fragment.SortableFragment
+ com.sommelier.fragment.SortableFragment$1
+ com.sommelier.fragment.SortableFragment$1$1
+ com.sommelier.fragment.SortableFragment$2
+ com.sommelier.fragment.SortableFragment$GrapesClickListener
+ com.sommelier.fragment.SortableFragment$MySortStateViewProvider
+com/sommelier/app/AppController.java
+ com.sommelier.app.AppController
+com/sommelier/helper/ThemeHelper.java
+ com.sommelier.helper.ThemeHelper
+com/sommelier/activity/DetailsActivity.java
+ com.sommelier.activity.DetailsActivity
+com/sommelier/model/GalleryModel/Photo.java
+ com.sommelier.model.GalleryModel.Photo
+com/sommelier/BuildConfig.java
+ com.sommelier.BuildConfig
+com/sommelier/activity/SplashScreenActivity.java
+ com.sommelier.activity.SplashScreenActivity
+ com.sommelier.activity.SplashScreenActivity$1
+ com.sommelier.activity.SplashScreenActivity$2
+com/sommelier/activity/MainActivity.java
+ com.sommelier.activity.MainActivity
+com/sommelier/services/GalleryApi.java
+ com.sommelier.services.GalleryApi
+com/sommelier/helper/SquareLayout.java
+ com.sommelier.helper.SquareLayout
+com/sommelier/adapter/GalleryPagerAdapter.java
+ com.sommelier.adapter.GalleryPagerAdapter
+ com.sommelier.adapter.GalleryPagerAdapter$1
+com/sommelier/helper/RegionPathParser.java
+ com.sommelier.helper.RegionPathParser
+ com.sommelier.helper.RegionPathParser$1
+ com.sommelier.helper.RegionPathParser$ExtractFloatResult
+ com.sommelier.helper.RegionPathParser$PathDataNode
+com/sommelier/adapter/RecyclerAdapter.java
+ com.sommelier.adapter.RecyclerAdapter
+ com.sommelier.adapter.RecyclerAdapter$RecyclerViewHolder
+com/sommelier/services/GalleryService.java
+ com.sommelier.services.GalleryService
+com/sommelier/constants/Constants.java
+ com.sommelier.constants.Constants
+com/sommelier/model/SpecificationsModel.java
+ com.sommelier.model.SpecificationsModel
+com/sommelier/adapter/SortableTableDataAdapter.java
+ com.sommelier.adapter.SortableTableDataAdapter
+com/sommelier/fragment/SettingsFragment.java
+ com.sommelier.fragment.SettingsFragment
+com/sommelier/model/GalleryModel/Photos.java
+ com.sommelier.model.GalleryModel.Photos
+com/sommelier/model/GalleryModel/FlickrPhoto.java
+ com.sommelier.model.GalleryModel.FlickrPhoto
+com/sommelier/fragment/RegionFragment.java
+ com.sommelier.fragment.RegionFragment

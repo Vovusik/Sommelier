@@ -1,0 +1,17 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sommelier.helper.SortableGrapesTableView
+        android:id="@+id/tableView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/open_sans_semi_bold"
+        custom:tableView_columnCount="7"
+        android:divider="@color/rowBackground"
+        android:dividerHeight="1dip"/>
+
+</FrameLayout>
